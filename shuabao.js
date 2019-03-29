@@ -10,11 +10,11 @@ function loop() {
     timer = setInterval(() => {
         delayTime = random(10000, 20000);
         // 设置随机开始和结束的位置
-        var x1 = random(300, 1200)
-        var y1 = random(2000, 2500)
-        var x2 = random(300, 1200)
-        var y2 = random(500, 1000)
-        var time = random(300, 800)
+        var x1 = random(300, 800)
+        var y1 = random(1800, 2200)
+        var x2 = random(300, 800)
+        var y2 = random(1000, 1300)
+        var time = random(300, 500)
         // 滑动
         swipe(x1, y1, x2, y2, time)
     }, delayTime);
